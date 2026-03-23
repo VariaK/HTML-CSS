@@ -27,3 +27,15 @@ https://github.com/user-attachments/assets/afd7729f-39da-4773-8dc2-bfea2ad913f3
         
   https://github.com/user-attachments/assets/448b9275-a9ee-429a-8061-0a3b25cab49d
 
+------
+4. **Pure CSS Dropdown Menu**
+    - **Objective:** Design a navigation bar with a dropdown submenu that appears on hover.
+    - **Requirements:**
+        - Use nested `<ul>` elements for the menu and submenu.
+        - Employ CSS pseudo-classes like `:hover` and transitions to create a smooth reveal effect.
+        - Ensure that the menu looks good on both desktop and mobile (consider using a responsive fallback).
+## Output of Task 4:
+
+https://github.com/user-attachments/assets/51c4347e-6a69-4bd1-bbe3-f30ad5b57e1a
+
+---------
