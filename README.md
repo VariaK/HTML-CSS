@@ -57,3 +57,16 @@ https://github.com/user-attachments/assets/51c4347e-6a69-4bd1-bbe3-f30ad5b57e1a
      - Utilize radio buttons or checkboxes (hidden from view) along with labels to serve as tabs.
      - Use the `:checked` pseudo-class to display the corresponding content while hiding others.
      - Incorporate smooth transitions when switching between tabs.
+
+## Output of Task 5&6:
+
+---
+
+7. **Pure CSS Carousel/Slider**
+   - **Objective:** Develop an image carousel that cycles through slides automatically and/or manually.
+   - **Requirements:**
+     - Use CSS animations (`@keyframes`) to create an auto-sliding effect.
+     - Implement manual slide selection using the `:checked` pseudo-class with hidden radio buttons or the `:target` pseudo-class.
+     - Ensure that the slider is responsive and visually engaging.
+
+## Output of Task 7:
