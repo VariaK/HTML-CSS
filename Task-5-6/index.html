@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Parts of Burger &#127828; </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+        <ul class="nav-links">
+            <li><span>Bread&#127838;</span></li>
+            <li><span>Tomato&#127813;</span></li>
+            <li class="dropdown">
+                <span class="drop-trigger">Pickel🥫&#9662;</span>
+                <ul class="submenu">
+                    <li><span>Onion&#129477;</span></li>
+                    <li><span>Cucumber&#129362;</span></li>
+                    <li><span>Olives🫒</span></li>
+                </ul>
+            </li>
+            <li><span>Cheese&#129472;</span></li>
+            <li class="dropdown">
+                <span class="drop-trigger">Patty &#9662;</span>
+                <ul class="submenu">
+                    <li><span>Potato Patty&#129364;</span></li>
+                    <li><span>Beef Patty&#x1F969;</span></li>
+                    <li><span>Veg Patty&#129367;</span></li>
+                </ul>
+            </li>
+            <li><span>Letuce&#129388;</span></li>
+
+        </ul>
+    </nav>
+
+    <div class="welcome-container">
+        <p id="heading">🍔 Welcome to the World of Burgers!</p>
+        <div class="tabs-container">
+
+            <h2>Top Burger Chains</h2>
+
+            <input type="radio" name="burger-tabs" id="tab1" checked>
+            <input type="radio" name="burger-tabs" id="tab2">
+            <input type="radio" name="burger-tabs" id="tab3">
+
+            <div class="tab-labels">
+                <label for="tab1">McDonald's</label>
+                <label for="tab2">Burger King</label>
+                <label for="tab3">Wendy's</label>
+            </div>
+
+            <div class="tab-content-wrapper">
+                <div id="content1" class="tab-pane">
+                    <p><img src="./img/McD.png" alt="McDonald's Logo">
+                        A global master of localization that adapts its menu to every culture, from the McAloo Tikki in
+                        India to the McPlant in Europe.<br>
+                        <bold>Global USP: Consistency and Speed.</bold>
+                    </p>
+                </div>
+                <div id="content2" class="tab-pane">
+
+                    <p>
+                        <img src="./img/BKing.png" alt="Burger King Logo">
+                        Known for offering more substantial, adult-sized burgers and leading the charge in plant-based
+                        meat with the Impossible Whopper. <br>
+                        <bold>Global USP: Flame-Grilled Flavor.</bold>
+                    </p>
+                </div>
+                <div id="content3" class="tab-pane">
+
+                    <p>
+                        <img src="./img/Wendys.png" alt="Wendy's Logo">
+                        A premium fast-food player that avoids mass-produced vibes by focusing on higher-quality
+                        ingredients, like their famous square patties and fresh-baked buns. <br>
+                        <bold>Global USP: Fresh, Never
+                            Frozen Square Patties.</bold>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <label for="modal-toggle" class="open-modal-btn">Where do hamburgers originate from?</label>
+    <input type="checkbox" id="modal-toggle" class="modal-checkbox">
+
+    <div class="modal-overlay">
+        <div class="modal-content">
+            <label for="modal-toggle" class="close-modal-btn">&times;</label>
+
+            <p>It seems that the US 🗽 have called dibs on this title but historians believe that actually burgers first
+                came about in ancient Rome.🏛️</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
