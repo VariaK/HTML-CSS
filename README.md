@@ -92,7 +92,9 @@ https://github.com/user-attachments/assets/e91a87a7-160f-43f4-86ba-300ab01de988
 
 ## Output of Task 8:
 
----
+https://github.com/user-attachments/assets/4f7bed31-f367-41d4-90cb-04090ce196c6
+
+--------------
 
 # 9. **Complex Responsive Layout with Grid and Flexbox**
 
@@ -100,6 +102,12 @@ https://github.com/user-attachments/assets/e91a87a7-160f-43f4-86ba-300ab01de988
 - **Requirements:** - Use CSS Grid to structure the main layout and Flexbox to handle the alignment and spacing of inner elements. - Create overlapping elements (using `position` and `z-index`) and dynamic reordering based on viewport size. - Implement a sticky header or sidebar that remains visible as the user scrolls.
 
 ## Output of Task 9:
+
+
+
+https://github.com/user-attachments/assets/4e5582fd-e1de-4ab7-b670-b745864917f2
+
+
 
 ---
 
@@ -113,5 +121,9 @@ https://github.com/user-attachments/assets/e91a87a7-160f-43f4-86ba-300ab01de988
   - Ensure that the entire experience is responsive and leverages advanced CSS techniques (e.g., combining Flexbox, Grid, and pseudo-classes) to manage layout and state transitions.
 
   ## Output of Task 10:
+
+
+https://github.com/user-attachments/assets/1065ff72-6be8-4005-a37f-862ae85a3580
+
 
 ---
