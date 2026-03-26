@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC;
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "header header"
+        "sidebar main"
+        "sidebar footer";
+}
+
+
+
+.logo{
+        font-family: Averia Libre;
+        font-size: 25px;
+        font-weight: 700;
+        color: #4FFFB0
+
+}
+
+header{
+
+    grid-area: header;
+
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 5%;
+    background-color: #2C5F2D;
+    position: sticky;
+    top:0;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+    font-family: Averia Libre;
+    font-size:18px;
+    
+}
+.nav__links li a{
+    padding: 4px;
+    border-radius: 10px;
+    color: #ffa648;
+}
+.nav__links li a:hover{
+    background-color: #708238;
+}
+aside{
+    grid-area: sidebar;
+    height: calc(100vh - 6rem);
+    background-color: #708238;
+
+    position: sticky;
+       top: 96px;
+
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-items: center;
+
+}
+
+.icon{
+
+   width: 25px;
+  height: 25px;
+  filter: invert(100%);
+  cursor: pointer;
+
+}
+.icon:hover {
+  filter: invert(30%); 
+}
+
+
+main{
+    grid-area: main;
+    padding: 10px 60px;
+    color: #4A4A3F;
+    font-size: 16px;
+
+}
+main h1{
+    text-align: center;
+    font-family: Averia Libre;
+}
+footer{
+    grid-area: footer;
+    background-color:#5C4033 ;
+    padding: 20px;
+
+    
+}
+.contact:hover{
+    filter: invert(70%);
+
+}
+
+.footer-top{
+display: flex;
+    justify-content: space-between;
+}
+.footer-bottom{
+    color: white;
+    text-align: center;
+}
+
+@media(max-width: 450px) {
+    body{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+        gap:0px;
+    }
+    main{
+        padding: 10px auto;
+    }
+    aside{
+    height: 3rem;
+    top: 96px;
+    flex-direction: row;
+    }
+    
+}
